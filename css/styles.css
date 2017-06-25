@@ -1,0 +1,115 @@
+/* --------------------------------------------
+HEADER
+---------------------------------------------*/
+.fa {
+    font-weight: bold;
+    color: #02b3e4;
+}
+
+.text-left {
+    float: left;
+}
+
+.text-right {
+    float: right;
+}
+
+.lead { 
+    clear: both;
+}
+
+.jumbotron {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid #7d97ad;
+    width: 100%;
+}
+
+/* -------------------------------------------
+MIDDLE BANNER
+--------------------------------------------*/
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #7d97ad;
+    margin: 1em 0 2em 1em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+/* -------------------------------------------
+CARDS
+--------------------------------------------*/
+.card {
+    border: none;
+}
+
+.card-img-top {
+    height: auto;
+    margin: 0 auto;
+}
+
+.card-title {
+    color: #2d3c49;
+}
+
+.btn {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: #2d3c49;
+
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: #2d3c49;
+    text-decoration: underline;
+
+}
+
+/* -------------------------------------------
+FOOTER
+--------------------------------------------*/
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #7d97ad; 
+}
+
+footer p {
+    margin: 2em;
+    font-size: 80%;
+    color: #7d97ad; 
+}
+
+/* -------------------------------------------
+MEDIA QUERIES
+--------------------------------------------*/
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .header-image {
+        display: none;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+
+
+
+
+
