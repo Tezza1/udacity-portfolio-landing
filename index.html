@@ -2,6 +2,7 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Builder- Terry Shenker</title>
     <script src="https://use.fontawesome.com/eed36b6b1e.js"></script>
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -12,23 +13,23 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container-fluid">
+    <header class="container-fluid">
         <div class="row">
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container">
+            <div class="col header-row">
+                <div class="jumbotron jumbotron-fluid">
                     <h1 class="display-4 header text-left"><i class="fa fa-wrench" aria-hidden="true"></i></h1>
                     <h1 class="display-4 header text-right">Terry Shenker</h1>
                     <p class="lead text-right">Front End Developer</p>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
     <div class="container-fluid">
         <div class="row">
             <div class="col col-md-8 offset-md-2">
                 <picture>
-                    <source media="(min-width: 769px)" srcset="img/header-image.png" class="img-fluid header-image">
-                    <source media="(min-width: 577px)" srcset="img/header-image-small.png" class="img-fluid header-image">
+                    <source media="(min-width: 768px)" srcset="img/header-image.png" class="img-fluid header-image">
+                    <source media="(max-width: 767px)" srcset="img/header-image-small.png" class="img-fluid header-image">
                     <img src="img/header-image.png" class="img-fluid header-image" alt="Header image of web development">
                 </picture>
             </div>
@@ -42,34 +43,34 @@
         </div>
         <div class="row">
             <div class="col">
-                <div class="card">
+                <article class="card">
                     <img class="card-img-top img-fluid" src="img/card-image-1.png" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Responsiveness</h4>
                         <p class="card-text">Building responsive websites that are easily accessible across mobile devices and laptops.</p>
                         <a href="#" class="btn btn-primary">View on github <i class="fa fa-external-link-square" aria-hidden="true"></i></a>
                     </div>
-                </div>
+                </article>
             </div>
             <div class="col">
-                <div class="card">
+                <article class="card">
                     <img class="card-img-top img-fluid" src="img/card-image-2.png" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Optimization</h4>
                         <p class="card-text">Creating websites that are optimized to ensure fast load times whilst remaining interactive.</p>
                         <a href="#" class="btn btn-primary">View on github <i class="fa fa-external-link-square" aria-hidden="true"></i></a>
                     </div>
-                </div>
+                </article>
             </div>
             <div class="col">
-                <div class="card">
+                <article class="card">
                     <img class="card-img-top img-fluid" src="img/card-image-3.png" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Single Page Applications</h4>
                         <p class="card-text">Developing websites that leverage the latest Javascript frameworks to ensure the best browsing experinece and maximize intercation with the user.</p>
                         <a href="#" class="btn btn-primary">View on github <i class="fa fa-external-link-square" aria-hidden="true"></i></a>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </div>
@@ -77,6 +78,9 @@
         <footer class="row">
             <div class="col">
                 <p> &copy; Terry Shenker</p>
+            </div>
+            <div>
+                <p><a href="#"><i class="fa fa-facebook-official social-logo" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-linkedin-square social-logo" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-tumblr-square social-logo" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-twitter-square social-logo" aria-hidden="true"></i></a></p>
             </div>
         </footer>
     </div>
