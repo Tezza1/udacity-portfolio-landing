@@ -33,7 +33,7 @@ MIDDLE BANNER
 --------------------------------------------*/
 
 h2 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     color: #7d97ad;
     margin: 1em 0 2em 1em;
     font-weight: bold;
@@ -75,12 +75,12 @@ CARDS
 FOOTER
 --------------------------------------------*/
 
-footer {
+.footer {
     margin-top: 1em;
     border-top: 1px solid #7d97ad; 
 }
 
-footer p {
+.footer p {
     margin: 2em;
     font-size: 80%;
     color: #7d97ad; 
